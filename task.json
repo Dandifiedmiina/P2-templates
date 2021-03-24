@@ -1,0 +1,18 @@
+{
+"heading": "Node.js Project 2: Small Project on Templates ", 
+"subheading": "Rehearsing the skills on",
+"target": [
+        "Utilize EJS or JADE template engine with Express.js",
+        "Parse JSON files using EJS templates",
+        "AJAX"
+          
+], 
+"tasks" : [
+         "Create an app which will send search query and fetch JSON data from an API of your choice. Use these lists for a reference: AnyAPI or Public-APIS.io.",
+         "If AJAX creates problems, you can read the data from a local file.",
+         "Apply EJS/Jade templates to display the data.",
+         "Utilize partials for each page.",
+         "Use Pure.css or Bootstrap to style the pages",
+         "Deploy to Heroku. Return code to GitHub."
+         ]
+ }

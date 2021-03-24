@@ -1,0 +1,19 @@
+{
+  "name": "p2-templates",
+  "version": "1.0.0",
+  "description": "Project 2 / School Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dandifiedmiina/P2-templates.git"
+  },
+  "author": "Miina P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dandifiedmiina/P2-templates/issues"
+  },
+  "homepage": "https://github.com/Dandifiedmiina/P2-templates#readme"
+}

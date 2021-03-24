@@ -1,0 +1,46 @@
+{
+    "people" : [
+      {
+         "firstName": "Joe",
+         "lastName": "Jackson",
+         "gender": "male",
+         "age": 28,
+         "number": "7349282382"
+      },
+      {
+         "firstName": "James",
+         "lastName": "Smith",
+         "gender": "male",
+         "age": 32,
+         "number": "5678568567"
+      },
+      {
+         "firstName": "Emily",
+         "lastName": "Jones",
+         "gender": "female",
+         "age": 24,
+         "number": "456754675"
+      },
+      {
+         "firstName": "Holly",
+         "lastName": "Ringwald",
+         "gender": "female",
+         "age": 76,
+         "number": "5678563807"
+      },
+      {
+         "firstName": "Daniel",
+         "lastName": "Flecher",
+         "gender": "male",
+         "age": 52,
+         "number": "9893563567"
+      },
+      {
+         "firstName": "Brian",
+         "lastName": "O´Neil",
+         "gender": "male",
+         "age": 19,
+         "number": "5228569903"
+      }
+    ]
+  }

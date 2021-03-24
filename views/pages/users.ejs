@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+<table class="table table-hover">
+    <% people.forEach(function(person){ %>
+        <tr>
+            <td>
+                <%= person.firstName %>
+            </td>
+            <td>
+                <%= person.lastName %>
+            </td>
+            <td> Age: <%= person.age %>
+            </td>
+            <td> Number: <%= person.number %>
+            </td>
+        </tr>
+        <% })%>
+    </table>
+    <footer>
+        <%-include('../partials/footer') %>
+    </footer>
+</body>
+
+</html>
