@@ -32,7 +32,7 @@ app.get("*", function (req, res) {
 
 // Web-palvelimen luonti
 app.listen(process.env.PORT || 5000, function () {
-  console.log("Example app listening on port 3003!");
+  console.log("Example app listening on port 5000!");
 });
 
 function results(err, data) {
