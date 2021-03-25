@@ -2,6 +2,8 @@ var http = require("http");
 var express = require("express");
 var app = express();
 
+app.use(express.static("./"));
+
 app.set("view engine", "ejs");
 
 app.locals.pretty = true;
@@ -23,8 +25,10 @@ app.get("/users", function (req, res) {
 });
 
 app.get("/api", function (req, res) {
-  res.render("pages/index");
+  
+    res.render("pages/api");
 });
+
 
 app.get("*", function (req, res) {
   res.send("Cant find the requested page", 404);
